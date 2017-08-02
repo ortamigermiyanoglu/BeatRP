@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/mainBg"
+    tools:context="com.aresrd.android.beatrp.FragmentCustomers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="15"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.95"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="6">
+
+
+            <Button
+                android:id="@+id/prevButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.75"
+                android:text="PREVIOUS"
+                android:textSize="10sp" />
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25" />
+
+            <Spinner
+                android:id="@+id/spinnerSelectPage"
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_weight="2"
+                android:background="?android:attr/detailsElementBackground"></Spinner>
+
+            <android.support.v4.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25" />
+
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.75"
+                android:text="NEXT"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <ListView
+            android:textColor="@color/loginSignUpEtc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11"
+            android:id="@+id/lvCustomers"
+            android:divider="@android:color/holo_red_light" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/add"
+        app:backgroundTint="@color/colorAccent"
+        app:fabSize="mini"
+        app:elevation="6dp"
+        android:scaleType="center"
+        android:id="@+id/newCustomer" />
+</FrameLayout>

@@ -1,0 +1,824 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.aresrd.android.beatrp.FragmentCustomerEdit"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:background="@drawable/lv_customers_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:paddingLeft="20dp"
+                    android:gravity="left"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/lblCustomerName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                        android:text="@string/name_title_header"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <!--Name/title of the company-->
+
+
+
+                <LinearLayout
+                    android:id="@+id/cEdit1"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/name_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerName"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--Customer code-->
+
+
+                <LinearLayout
+                    android:id="@+id/cEdit2"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/customer_code"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerCode"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <!--Tax office-->
+                <LinearLayout
+                    android:id="@+id/cEdit3"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/tax_office"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerTaxOffice"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <!--Tax number-->
+                <LinearLayout
+                    android:id="@+id/cEdit4"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/tax_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerTaxNumber"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+                <!--Phone-->
+                <LinearLayout
+                    android:id="@+id/cEdit5"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerPhone"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+                <!--Email-->
+                <LinearLayout
+                    android:id="@+id/cEdit6"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerEmail"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <!--Web-->
+                <LinearLayout
+                    android:id="@+id/cEdit7"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/web_url"
+                            android:textColor="#212F3D"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerWebUrl"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+                <!--Address-->
+                <LinearLayout
+                    android:id="@+id/cEdit8"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerAddress"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+
+                <!--Province-->
+                <LinearLayout
+                    android:id="@+id/cEdit9"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/province"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerProvince"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <!--Area/state-->
+
+
+                <LinearLayout
+                    android:id="@+id/cEdit10"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/area_state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerAreaState"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <!--  country  code  -->
+
+
+
+                <LinearLayout
+                    android:id="@+id/cEdit11"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/country"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerCountry"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <!--Postal/Zip Code-->
+
+                <LinearLayout
+                    android:id="@+id/cEdit12"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/postal_zip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCustomerPostalZipCode"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+                <!-- Invoice Payment Due Date -->
+
+
+                <LinearLayout
+                    android:id="@+id/cEdit13"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/invoice_payment_due_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtInvoicePaymentDueDate"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <!--CreditLimitOverFlowAction-->
+                <LinearLayout
+                    android:id="@+id/cEdit14"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/credit_limit_overflow_action"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtCreditLimitOverFlowAction_customer"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <!--DebitLimitOverFlowAction-->
+                <LinearLayout
+                    android:id="@+id/cEdit15"
+                    android:paddingLeft="2dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="left"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#212F3D"
+                            android:text="@string/debit_limit_overflow_action"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="right">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@android:color/darker_gray"
+                            android:inputType="text"
+                            android:textColor="@color/loginSignUpEtc"
+                            android:id="@+id/txtDebitLimitOverFlowAction_customer"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--hdnCustomerId-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hdnCustomerId"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnSaveCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:srcCompat="@drawable/save"
+        app:backgroundTint="@color/colorAccent"
+        app:fabSize="mini"
+        app:elevation="6dp"
+        android:scaleType="center" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorYellow">#FFC843</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!--MyColors-->
+    <color name="colorButton">#B2BABB</color>
+    <color name="editTextBg">@null</color>
+    <color name="mainBg">#F8F9F9</color>
+    <color name="hintColor">#ccccb3</color>
+    <color name="loginSignUpEtc">#212F3D</color>
+
+
+</resources>

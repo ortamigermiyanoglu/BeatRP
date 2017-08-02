@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BeatRP</string>
+    <string name="prompt_email">EPosta</string>
+    <string name="prompt_password">Parola</string>
+    <string name="action_sign_in">Kayıt Ol</string>
+    <string name="action_sign_in_short">Giriş Yap</string>
+    <string name="error_invalid_email">EPosta Geçersiz</string>
+    <string name="error_invalid_password">Parola Çok Kısa</string>
+    <string name="error_incorrect_password">Parola Yanlış</string>
+    <string name="error_field_required">Bu Alan Gerekli!</string>
+    <string name="title_activity_menu">BeatRP Kaynak Planlama</string>
+    <string name="menu_home">Anasayfa</string>
+    <string name="menu_collection">Tahsilat</string>
+    <string name="menu_payment">Ödeme</string>
+    <string name="menu_expense">Masraf</string>
+    <string name="menu_customers">Müşteriler</string>
+    <string name="menu_vendors">Tedarikçiler</string>
+    <string name="menu_account">Hesap Hareketleri</string>
+    <string name="menu_invoices">Faturalar</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="lblCustomers">Müşteriler</string>
+    <string name="navigation_drawer_open">Menüyü Aç</string>
+    <string name="navigation_drawer_close">Menüyü Kapat</string>
+    <string name="no_email_clients">Bir EPosta Uygulaması Bulunamadı!</string>
+    <string name="send_mail">EPosta Gönder</string>
+    <string name="logout">Güvenli Çıkış</string>
+    <string name="name_title">Adı/Ünvanı : </string>
+    <string name="name_title_header">Adı/Ünvanı</string>
+    <string name="balance_header">Bakiye</string>
+    <string name="tax_office">Vergi Dairesi : </string>
+    <string name="tax_number">Vergi Numarası : </string>
+    <string name="new_customer">Yeni Müşteri</string>
+    <string name="customer_detail">Müşteri Detayı</string>
+    <string name="phone">Telefon : </string>
+    <string name="web_url">Web Adresi : </string>
+    <string name="address">Adres : </string>
+    <string name="province">İl : </string>
+    <string name="area_state">Bölge/Eyalet : </string>
+    <string name="country">Ülke : </string>
+    <string name="postal_zip">Posta Kodu : </string>
+    <string name="email">EPosta : </string>
+    <string name="close">Kapat</string>
+    <string name="save">Kaydet</string>
+    <string name="name_title_required">Ad/Ünvan Gereklidir!</string>
+    <string name="customer_code">Müşteri Kodu : </string>
+    <string name="error_occured_while_customer_save">Müşteri Kaydedilirken Bir Hata Oluştu!</string>
+    <string name="choose_email_client">Bir EPosta İstemcisi Seçin</string>
+    <string name="email_from_beatrp">BeatRP Uygulamasından EPosta</string>
+    <string name="new_vendor">Yeni Tedarikçi</string>
+    <string name="vendor_detail">Tedarikçi Detayı</string>
+    <string name="vendor_code">Tedarikçi Kodu : </string>
+    <string name="choose_account">Hesap Seç</string>
+    <string name="account_type_prompt">Hesap Tipi Seçin</string>
+    <string-array name="account_types">
+        <item>Müşteriler</item>
+        <item>Tedarikçiler</item>
+    </string-array>
+    <string-array name="account_types_with_all">
+        <item>Tümü</item>
+        <item>Müşteriler</item>
+        <item>Tedarikçiler</item>
+    </string-array>
+    <string name="date_range">Tarih Aralığı</string>
+    <string name="begin_date">Başlangıç Tarihi</string>
+    <string name="end_date">Bitiş Tarihi</string>
+    <string name="search">Ara</string>
+    <string name="nothing_selected_at_account">Lütfen Bir Hesap Seçin!</string>
+    <string name="date">Tarih</string>
+    <string name="transaction_number">Belge No</string>
+    <string name="description">Açıklama</string>
+    <string name="dept">Borç</string>
+    <string name="credit">Alacak</string>
+    <string name="invoice_type">Fatura Tipi</string>
+    <string-array name="invoice_types">
+        <item>Tümü</item>
+        <item>Satış Faturası</item>
+        <item>Satıştan İade Faturası</item>
+        <item>Alış Faturası</item>
+        <item>Alıştan İade Faturası</item>
+    </string-array>
+    <string name="invoice_type_prompt">Fatura Tipi Seçin</string>
+    <string name="invoice_number">Fatura No : </string>
+    <string name="all">Tümü</string>
+    <string name="service_error">Sunucuya bağlanılamadı! Lütfen internet bağlantınızı kontrol ediniz...</string>
+    <string name="begin_date_invoice">Fatura Başlangıç Tarihi</string>
+    <string name="end_date_invoice">Fatura Bitiş Tarihi</string>
+    <string name="account_name">Hesap Adı</string>
+    <string name="grand_total">Genel Toplam</string>
+
+
+    <string name="password">Şifre</string>
+    <string name="log_in">GİRİŞ</string>
+    <string name="don_t_you_have_an_account_yet">Henüz kaydolmadınız mı?</string>
+    <string name="sign_up">Kaydol</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="full_name">Adınız Soyadınız</string>
+    <string name="company_name_title">Şirket Adı/Ünvanı</string>
+    <string name="sign_up_upcase">KAYDOL</string>
+
+
+    <string name="credit_limit_overflow_action">Alacak Limitini Aşınca Yapılacak İşlem</string>
+    <string name="debit_limit_overflow_action">Verecek Limitini Aşınca Yapılacak İşlem</string>
+
+    <string name="invoice_payment_due_date">Fatura Ödeme Vadesi</string>
+    <string name="invoice_collection_due_date">Fatura Tahsilat Vadesi</string>
+
+
+
+</resources>

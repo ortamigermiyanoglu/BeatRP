@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">BeatRP</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_menu">BeatRP Resource Planing</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_collection">Collection Receipt</string>
+    <string name="menu_payment">Payment</string>
+    <string name="menu_expense">Expense</string>
+    <string name="menu_customers">Customers</string>
+    <string name="menu_vendors">Vendors</string>
+    <string name="menu_account">Account Flow</string>
+    <string name="menu_invoices">Invoices</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblCustomers">Customers</string>
+    <string name="navigation_drawer_open">Open Menu</string>
+    <string name="navigation_drawer_close">Close Menu</string>
+    <string name="no_email_clients">There Are No Email Clients Installed!</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="logout">Logout</string>
+    <string name="name_title">Name/Title : </string>
+    <string name="name_title_header">Name/Title</string>
+    <string name="balance_header">Balance</string>
+    <string name="tax_office">Tax Office : </string>
+    <string name="tax_number">Tax Number : </string>
+    <string name="new_customer">New Customer</string>
+    <string name="customer_detail">Customer Detail</string>
+    <string name="phone">Phone : </string>
+    <string name="web_url">Web Url : </string>
+    <string name="address">Address : </string>
+    <string name="province">Province : </string>
+    <string name="area_state">Area/State : </string>
+    <string name="country">Country : </string>
+    <string name="postal_zip">Postal/Zip Code : </string>
+    <string name="email">EMail : </string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="name_title_required">Name/Title Is Required!</string>
+    <string name="customer_code">Customer Code : </string>
+    <string name="error_occured_while_customer_save">An Error Occured While Saving Customer!</string>
+    <string name="choose_email_client">Choose An Email Client</string>
+    <string name="email_from_beatrp">Email From BeatRP</string>
+    <string name="new_vendor">New Vendor</string>
+    <string name="vendor_detail">Vendor Detail</string>
+    <string name="vendor_code">Vendor Code : </string>
+    <string name="choose_account">Choose Account</string>
+    <string name="account_type_prompt">Choose Account Type</string>
+    <string-array name="account_types">
+        <item>Customers</item>
+        <item>Vendors</item>
+    </string-array>
+    <string-array name="account_types_with_all">
+        <item>All</item>
+        <item>Customers</item>
+        <item>Vendors</item>
+    </string-array>
+    <string name="date_range">Date Range</string>
+    <string name="begin_date">Begin Date</string>
+    <string name="end_date">End Date</string>
+    <string name="search">Search</string>
+    <string name="nothing_selected_at_account">Please Select An Account!</string>
+    <string name="date">Date</string>
+    <string name="transaction_number">Transaction Number</string>
+    <string name="description">Description</string>
+    <string name="dept">Debit</string>
+    <string name="credit">Credit</string>
+    <string name="invoice_type">Invoice Type</string>
+    <string-array name="invoice_types">
+        <item>All</item>
+        <item>Sales Invoice</item>
+        <item>Sales Return Invoice</item>
+        <item>Purchase Invoice</item>
+        <item>Purchase Return Invoice</item>
+    </string-array>
+    <string name="invoice_type_prompt">Choose Invoice Type</string>
+    <string name="invoice_number">Invoice No : </string>
+    <string name="all">All</string>
+    <string name="service_error">Unable to connect to the server! Please check your internet connection...</string>
+    <string name="begin_date_invoice">Invoice Begin Date</string>
+    <string name="end_date_invoice">Invoice End Date</string>
+    <string name="account_name">Account Name</string>
+    <string name="grand_total">Grand Total</string>
+
+    <string name="password">Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="don_t_you_have_an_account_yet">Don\'t you have an account yet?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="full_name">Full Name</string>
+    <string name="company_name_title">Company Name/Title</string>
+    <string name="sign_up_upcase">SIGN UP</string>
+
+
+    <string name="credit_limit_overflow_action">Credit Limit Overflow Action</string>
+    <string name="debit_limit_overflow_action">Debit Limit Overflow Action</string>
+
+
+
+    <string name="invoice_collection_due_date">Invoice Collection Due Date</string>
+    <string name="invoice_payment_due_date">Invoice Payment Due Date</string>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
